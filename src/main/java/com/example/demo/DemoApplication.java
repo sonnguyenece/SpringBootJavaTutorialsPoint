@@ -20,7 +20,9 @@ public class DemoApplication {
     @GetMapping("/")
     @ResponseBody
     public String home(){
+        System.out.println(name);
         return name;
+
     }
 
 }
